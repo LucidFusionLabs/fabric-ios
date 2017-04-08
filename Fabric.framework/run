@@ -25,4 +25,4 @@ fi
 #  Verification passed, upload dSYM in background to prevent Xcode from waiting
 #  Note: Validation is performed again before upload.
 #  Output can still be found in Console.app
-eval $DIR$PATH_SEP$UPLOAD_COMMAND > /dev/null 2>&1 &
+eval $DIR$PATH_SEP$UPLOAD_COMMAND
